@@ -1,0 +1,25 @@
+{
+  "name": "formflow-cli",
+  "version": "1.0.0",
+  "description": "Terminal-based Form Filler for Linux - Auto fill credit card forms",
+  "main": "formflow-cli.js",
+  "scripts": {
+    "start": "node formflow-cli.js",
+    "run": "node formflow-cli.js run",
+    "history": "node formflow-cli.js history",
+    "export": "node formflow-cli.js export"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "xlsx": "^0.18.5",
+    "readline-sync": "^1.4.10",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "bin": {
+    "formflow": "./formflow-cli.js"
+  },
+  "keywords": ["form", "auto-fill", "automation", "puppeteer"],
+  "author": "",
+  "license": "MIT"
+}
